@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Registration</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial;
+        }
+        h1 {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        h2 {
+            color: green;
+        }
+        div {
+            border: 2px green;
+            padding: 15px;
+        }
+        a {
+            color: green;
+            padding: 10px;
+            text-decoration: none;
+        }
+        input, select, textarea {
+            border: 1px  green;
+            padding: 8px;
+        }
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Patient Registration</h1>
+
+<div>
+    <a href="Home.html">Home</a>
+    <a href="doctors.html">Doctors</a>
+    <a href="appointments.html">Appointments</a>
+    <a href="register.html">Registration</a>
+    <a href="contact.html">Contact Us</a>
+</div>
+
+<h2>Enter Your Details</h2>
+
+<form>
+    <label>Full Name:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" required><br><br>
+
+    <label>Gender:</label><br>
+    <select>
+        <option>Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+    </select><br><br>
+
+    <label>Mobile Number:</label><br>
+    <input type="tel" required><br><br>
+
+    <label>Email Address:</label><br>
+    <input type="email"><br><br>
+
+    <label>Select Doctor:</label><br>
+    <select>
+        <option>Dr. Ananya Sharma</option>
+        <option>Dr. Rahul Verma</option>
+        <option>Dr. Priya Reddy</option>
+    </select><br><br>
+
+    <label>Appointment Date:</label><br>
+    <input type="date" required><br><br>
+
+    <label>Time Slot:</label><br>
+    <select>
+        <option>9:00 AM</option>
+        <option>10:00 AM</option>
+        <option>11:30 AM</option>
+        <option>2:00 PM</option>
+        <option>3:30 PM</option>
+        <option>5:00 PM</option>
+    </select><br><br>
+
+    <label>Reason for Visit:</label><br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+</form>
+
+</body>
+</html>
